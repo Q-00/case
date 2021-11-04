@@ -1,7 +1,7 @@
 import unittest
-from excelUtil.excelFile import ExcelFile
-from requestUtil.requests import RequestUtil
-from logUtil.log import loggr
+from ..excelUtil.excelFile import ExcelFile
+from ..requestUtil.requests import RequestUtil
+from ..logUtil.log import loggr
 
 class DoCase(unittest.TestCase):
     def setUp(self):
